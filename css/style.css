@@ -5,27 +5,22 @@
 .baku {
     background-image: url("/images/baku.jpg");
     max-width: 800px;
-
-  }
+      }
 
 .london {
     background-image: url("/images/london.png");
     max-width: 800px;
-
-
-    }
+        }
 
 .madrid {
     background-image: url("/images/madrid.jpg");
     max-width: 800px;
-
         }
 
 .rome {
     background-image: url("/images/rome.jpg");
     max-width: 800px;
-
-            }
+      }
 
 
 /* Tablets and Phones Resource */
