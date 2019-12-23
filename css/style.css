@@ -3,24 +3,20 @@
 }
 
 .baku {
-    background-image: url("/images/baku.jpg");
-    max-width: 800px;
-      }
+    background-image: url("../images/baku.jpg");
+}
 
 .london {
-    background-image: url("/images/london.png");
-    max-width: 800px;
-        }
+    background-image: url("../images/london.png");
+}
 
 .madrid {
-    background-image: url("/images/madrid.jpg");
-    max-width: 800px;
-        }
+    background-image: url("../images/madrid.jpg");
+}
 
 .rome {
-    background-image: url("/images/rome.jpg");
-    max-width: 800px;
-      }
+    background-image: url("../images/rome.jpg");
+}
 
 
 /* Tablets and Phones Resource */
@@ -33,8 +29,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-
 }
+
 }
 /* Desktop or Laptop Resource */
 /* Thank you so much, I could not remember, "cover!"*/
@@ -46,7 +42,6 @@
        background-repeat: no-repeat;
        background-size: cover;
        height: 300px;
-
 }
 
 /*container*/
@@ -59,17 +54,15 @@ body {
   background-color: #dadada;
   text-transform: uppercase;
 
-
 }
+
 div {
-  background-color: pink;
+  background-color: transparent;
 }
-
 
 
 h1 {
   font-size: 1em;
   font-family:sans-serif;
   margin: 5px 5px 5px;
-
 }
