@@ -1,6 +1,21 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+/*container*/
+.container {
+  text-align: center;
+  margin: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+h1 {
+  font-size: 1em;
+  font-family:sans-serif;
+  margin: 5px 5px 5px;
+  text-align: left;
+  text-transform: uppercase;
+}
 
 .baku {
     background-image: url("../images/baku.jpg");
@@ -20,48 +35,41 @@
 
 
 /* Tablets and Phones Resource */
-@media screen and (min-width: 300px){
+@media screen and (min-width: 40px){
    div {
     display: inline-block;
-    width: 40%;
-    border: 0%;
-    margin: 15px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 90%;
+    border: 10%;
+    margin: 10px;
     height: 300px;
+    background-size: cover;
 }
 
+/* Tablets and Phones Resource */
+@media screen and (min-width: 501px){
+   div {
+    width: 40%;
+    margin: 20px;
+
 }
+
+
 /* Desktop or Laptop Resource */
 /* Thank you so much, I could not remember, "cover!"*/
-@media screen and (min-width: 1199px){
+@media screen and (min-width: 1099px){
    div {
        width: 20%;
-       display: inline-block;
        border: 2%;
-       background-repeat: no-repeat;
-       background-size: cover;
-       height: 300px;
 }
 
-/*container*/
-.container {
-  text-align: center;
-}
+
 
 /*container*/
 body {
-  text-transform: uppercase;
+
 }
 
 div {
   background-color: transparent;
   text-align: left;
-}
-
-
-h1 {
-  font-size: 1em;
-  font-family:sans-serif;
-  margin: 5px 5px 5px;
 }
